@@ -5,7 +5,6 @@ int main(void)
     int a, g;
     int i = 0;
 
-    printf("정답입력: ");
     scanf("%d", &a);
 
     do {
