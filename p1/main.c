@@ -6,10 +6,10 @@ int main(void)
     int i = 0;
 
     printf("정답입력: ");
-    scanf_s("%d", &x);
+    scanf("%d", &x);
 
     do {
-        scanf_s("%d", &y);
+        scanf("%d", &y);
         i++;
 
         if (x > y) {
