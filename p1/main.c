@@ -6,10 +6,10 @@ int main(void)
     int i = 0;
 
     printf("정답입력: ");
-    scanf_s("%d", &a);
+    scanf("%d", &a);
 
     do {
-        scanf_s("%d", &g);
+        scanf("%d", &g);
         i++;
 
         if (a > g) {
