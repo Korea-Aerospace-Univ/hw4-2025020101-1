@@ -2,27 +2,27 @@
 
 int main(void)
 {
-    int x, y;
+    int a, g;
     int i = 0;
 
     printf("정답입력: ");
-    scanf("%d", &x);
+    scanf_s("%d", &a);
 
     do {
-        scanf("%d", &y);
+        scanf_s("%d", &g);
         i++;
 
-        if (x > y) {
-            printf("%d>?\n", y, y);
+        if (a > g) {
+            printf("%d<?\n", g);
         }
-        else if (y < x) {
-            printf("%d<?\n", y, y);
+        else if (a < g) {
+            printf("%d>?\n", g);
         }
         else {
-            printf("%d==?\n", y, y);
+            printf("%d==?\n", g);
         }
 
-    } while (y != x);
+    } while (g != a);
 
     printf("%d\n", i);
 
